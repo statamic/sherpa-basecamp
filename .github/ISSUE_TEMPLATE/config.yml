@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Sherpa website
+    url: https://sherpa.statamic.com
+    about: Download Sherpa and read about the app.
+  - name: Security vulnerabilities
+    url: mailto:support@statamic.com
+    about: Email support@statamic.com instead of filing a public issue.
