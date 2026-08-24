@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="backpack.png" width="220" alt="Sherpa">
-</p>
+<img src="backpack.png" width="220" alt="Sherpa">
 
 # Sherpa
 
