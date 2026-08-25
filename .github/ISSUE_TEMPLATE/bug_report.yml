@@ -1,0 +1,59 @@
+name: Bug report
+description: Something isn't working as expected
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Please [search existing issues](https://github.com/statamic/sherpa-basecamp/issues) first.
+
+        **About Sherpa** shows your version (e.g. `0.2.0 (175)`). If an install or operation failed, use **Copy errors** in Sherpa and paste the full output below.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What were you trying to do, and what went wrong?
+      placeholder: e.g. New site with a starter kit fails every time at the starter kit step.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. File → New Site…
+        2. Choose starter kit …
+        3. …
+    validations:
+      required: false
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS version
+      description: System Settings → General → About
+      placeholder: macOS 15.5
+    validations:
+      required: true
+
+  - type: input
+    id: sherpa-version
+    attributes:
+      label: Sherpa version
+      description: About Sherpa (version and build number)
+      placeholder: 0.2.0 (175)
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Error log
+      description: Paste output from Sherpa's **Copy errors** button, if you have it.
+      placeholder: Sherpa install failure … (full pasted text)
+    validations:
+      required: false
