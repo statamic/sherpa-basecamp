@@ -26,11 +26,3 @@ body:
       placeholder: e.g. Scan a folder and bulk-import every Statamic site it finds.
     validations:
       required: true
-
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives you've considered
-      placeholder: e.g. I use a shell script today, but …
-    validations:
-      required: false
