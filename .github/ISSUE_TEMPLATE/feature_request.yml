@@ -1,0 +1,36 @@
+name: Feature request
+description: An idea for Sherpa
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea. Please [search existing issues](https://github.com/statamic/sherpa-basecamp/issues) first — someone may have already asked for this.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: What are you trying to do today, and what's missing or painful?
+      placeholder: e.g. I have dozens of Statamic sites in ~/Herd and importing them one by one is tedious.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like Sherpa to do?
+      description: Describe the feature or workflow you'd want.
+      placeholder: e.g. Scan a folder and bulk-import every Statamic site it finds.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      placeholder: e.g. I use a shell script today, but …
+    validations:
+      required: false
